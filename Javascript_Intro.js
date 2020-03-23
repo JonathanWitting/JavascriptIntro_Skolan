@@ -1,7 +1,7 @@
 // Jonathan Witting Jakhammer
 // 18/3 - 2020
 
-function skapaDialog_uppg1(textAttVisa) {
+function showDialog_uppg1(textAttVisa) {
     alert(textAttVisa);
 }
 
@@ -23,4 +23,11 @@ function changeImage_uppg4() {
         document.getElementById("uppg4_img").src = "https://live.staticflickr.com/3403/3604860866_e0811023a1_z.jpg";
         document.getElementById("uppg4_img").alt = "Donald-Duck Card-Image";
     }
+}
+
+function alertName_uppg_5_6_7() {
+    var cName = document.getElementById("user-name").value;
+    var alertMSG = "Hej " + cName + "!";
+    alert(alertMSG);
+    document.getElementById("current-name").innerHTML = cName;
 }
